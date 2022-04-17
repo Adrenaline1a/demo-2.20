@@ -1,5 +1,0 @@
-1. select "Student ID", "Degree of difficulty of assigments", "Well versed with the subject" from srud where "Degree of difficulty of assugments" > 5 and "Well versed with the subject" > 7 order by "Degree of difficulty of assugments", "Well versed with the subject";
-2. select "Provides support for students going above and beyond", count(*) as "Number of students" from stud group by "Provides support for students going above and beyond" order by 2;
-3. select "Student ID", "Structuring of the course" from stud where Structuring of the course" == 10 order by 1;
-4. select count(*) as "Numbers of student", "Course recommendation based on relevance" from stud where "Course recommendation based on relevance" > 6 group by 2 order by 2 desc;
-5. select "Student ID" from stud where "Well versed with the subject" > 400 and "Explains concepts in an undertandable way" > 4 and "Use of presentations" > 4 and "Degree of difficulty of assigments" > 4 and "Solves doubts willingly" > 4 and "Structuring of the course" > 4 and "Provides support for students going above and beyond" > 4 and "Course recommendation based on relevance" > 4 limit 10;
